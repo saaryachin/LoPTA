@@ -1,0 +1,41 @@
+timestamp,module,level,pid,tid,client_ip,client_port,error_code,message,log_type,aita_risk_level,aita_comment
+Sat May 10 10:00:00.000000 2025,proxy_http,notice,5654.0,95997.0,192.115.111.15,12240.0,AH00687,Negotiation: discovered file(s) matching request,error,1.0,
+Sat May 10 10:00:11.000000 2025,proxy_http,warn,7881.0,75489.0,193.102.101.204,4659.0,AH00094,Command line: '/usr/sbin/apache2',error,1.0,
+Sat May 10 10:00:16.000000 2025,rewrite,warn,5840.0,99165.0,192.115.111.15,12240.0,AH00169,"caught SIGTERM, shutting down",error,1.0,
+Sat May 10 10:01:00.000000 2025,mpm_prefork,notice,4882.0,,,,AH00163,Apache/2.4.41 (Ubuntu) configured -- resuming normal operations,error,1.0,
+Sat May 10 10:01:12.000000 2025,authz_core,error,4882.0,94655.0,203.0.113.7,49821.0,AH01630,client denied by server configuration: /var/www/private,error,1.0,
+Sat May 10 10:01:18.000000 2025,core,notice,4882.0,,,,AH00094,Command line: '/usr/sbin/apache2',error,1.0,
+Sat May 10 10:01:44.000000 2025,rewrite,warn,4882.0,91288.0,198.51.100.9,34567.0,AH00667,The RewriteEngine directive is deprecated,error,1.0,
+Sat May 10 10:02:01.000000 2025,ssl,error,4882.0,87322.0,203.0.113.18,56100.0,AH02032,Hostname www.example.com provided via SNI and hostname example.net provided via HTTP are different,error,1.0,
+Sat May 10 10:02:17.000000 2025,core,error,4882.0,87322.0,192.0.2.123,55876.0,AH00126,Invalid URI in request GET /%00 HTTP/1.1,error,1.0,
+Sat May 10 10:03:05.000000 2025,access_compat,error,4882.0,91288.0,198.51.100.5,41212.0,AH01797,client denied by server configuration: /var/www/html/.htaccess,error,1.0,
+Sat May 10 10:03:36.000000 2025,rewrite,notice,4882.0,95411.0,203.0.113.200,38220.0,AH00670,RewriteCond pattern '[^a-zA-Z0-9]' does not match,error,1.0,
+Sat May 10 10:03:57.000000 2025,proxy_http,warn,4882.0,87542.0,10.0.0.1,60000.0,AH01144,No protocol handler was valid for the URL /api/data,error,1.0,
+Sat May 10 10:04:11.000000 2025,mpm_prefork,notice,4882.0,,,,AH00169,"caught SIGTERM, shutting down",error,3.0,Client denied by server configuration
+Sat May 10 10:04:24.000000 2025,authn_file,error,5980.0,90122.0,198.51.100.4,50112.0,AH01617,"user admin: authentication failure for ""/admin"": Password Mismatch",error,1.0,
+Sat May 10 10:04:40.000000 2025,ssl,warn,5980.0,92113.0,203.0.113.5,34345.0,AH01909,www.example.com:443:0 server certificate does NOT include an ID which matches the server name,error,5.0,Possible misconfiguration or attack (invalid URI)
+Sat May 10 10:05:01.000000 2025,core,error,5980.0,93822.0,192.0.2.45,41003.0,AH00124,Request exceeded the limit of 10 internal redirects due to probable configuration error.,error,1.0,
+Sat May 10 10:05:33.000000 2025,proxy_fcgi,error,5980.0,94999.0,198.51.100.2,59123.0,AH01071,Got error 'Primary script unknown',error,1.0,
+Sat May 10 10:06:14.000000 2025,rewrite,warn,5980.0,95423.0,203.0.113.21,54444.0,AH00665,Invalid regular expression '^/$',error,3.0,Authentication failure for 'admin'
+Sat May 10 10:06:45.000000 2025,mpm_prefork,notice,5980.0,,,,AH00163,Apache/2.4.41 (Ubuntu) configured -- resuming normal operations,error,1.0,
+Sat May 10 10:07:09.000000 2025,core,notice,5980.0,,,,AH00094,Command line: '/usr/sbin/apache2',error,1.0,
+Sat May 10 10:07:42.000000 2025,authz_core,debug,5980.0,99999.0,10.0.2.15,39282.0,AH01626,authorization result of Require all granted: granted,error,4.0,Server certificate does not match server name
+Sat May 10 10:08:01.000000 2025,proxy_fcgi,error,5980.0,98341.0,198.51.100.3,45500.0,AH01067,Failed to read FastCGI header,error,1.0,
+Sat May 10 10:08:37.000000 2025,deflate,warn,5980.0,96329.0,203.0.113.6,40333.0,AH01384,Zlib: Compressed data not written to client,error,1.0,
+Sat May 10 10:09:00.000000 2025,authn_core,error,5980.0,94412.0,192.0.2.88,33210.0,AH01796,AuthType configured with no corresponding module,error,5.0,Internal redirect limit exceeded
+Sat May 10 10:09:29.000000 2025,proxy,error,5980.0,97612.0,198.51.100.101,31254.0,AH00898,Error reading from remote server returned by /api/slow,error,1.0,
+Sat May 10 10:10:15.000000 2025,rewrite,notice,5980.0,94200.0,203.0.113.40,50234.0,AH00670,RewriteCond pattern '[0-9]{3}' does match,error,1.0,
+Sat May 10 10:10:39.000000 2025,core,error,5980.0,99992.0,198.51.100.77,42103.0,AH00128,File does not exist: /var/www/html/missing.html,error,3.0,Error reading from remote server
+Sat May 10 10:11:00.000000 2025,ssl,warn,5980.0,98765.0,203.0.113.100,51000.0,AH01906,www.example.com:443:0 server certificate is expired,error,1.0,
+Sat May 10 10:11:29.000000 2025,proxy_ajp,error,5980.0,98211.0,192.0.2.200,60212.0,AH00878,read response failed from 127.0.0.1:8009 (localhost),error,4.0,Invalid regular expression in rewrite rule
+Sat May 10 10:12:00.000000 2025,rewrite,error,5980.0,99900.0,198.51.100.200,39213.0,AH00664,RewriteCond: bad flag delimiters,error,1.0,
+,,,,,,,,,,3.0,Apache restarted
+,,,,,,,,,,2.0,Authorization result: granted
+,,,,,,,,,,4.0,Failed to read FastCGI header
+,,,,,,,,,,3.0,Zlib compression error
+,,,,,,,,,,2.0,AuthType configured with no corresponding module
+,,,,,,,,,,5.0,Error reading from remote server (/api/slow)
+,,,,,,,,,,3.0,RewriteCond pattern does not match
+,,,,,,,,,,5.0,File does not exist: /var/www/html/missing.html
+,,,,,,,,,,4.0,Server certificate is expired
+,,,,,,,,,,5.0,Error reading from AJP connector

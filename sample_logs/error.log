@@ -1,0 +1,30 @@
+[Sat May 10 10:00:00.000000 2025] [proxy_http:notice] [pid 5654:tid 95997] [client 192.115.111.15:12240] AH00687: Negotiation: discovered file(s) matching request
+[Sat May 10 10:00:11.000000 2025] [proxy_http:warn] [pid 7881:tid 75489] [client 193.102.101.204:4659] AH00094: Command line: '/usr/sbin/apache2'
+[Sat May 10 10:00:16.000000 2025] [rewrite:warn] [pid 5840:tid 99165] [client 192.115.111.15:12240] AH00169: caught SIGTERM, shutting down
+[Sat May 10 10:01:00.000000 2025] [mpm_prefork:notice] [pid 4882] AH00163: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+[Sat May 10 10:01:12.000000 2025] [authz_core:error] [pid 4882:tid 94655] [client 203.0.113.7:49821] AH01630: client denied by server configuration: /var/www/private
+[Sat May 10 10:01:18.000000 2025] [core:notice] [pid 4882] AH00094: Command line: '/usr/sbin/apache2'
+[Sat May 10 10:01:44.000000 2025] [rewrite:warn] [pid 4882:tid 91288] [client 198.51.100.9:34567] AH00667: The RewriteEngine directive is deprecated
+[Sat May 10 10:02:01.000000 2025] [ssl:error] [pid 4882:tid 87322] [client 203.0.113.18:56100] AH02032: Hostname www.example.com provided via SNI and hostname example.net provided via HTTP are different
+[Sat May 10 10:02:17.000000 2025] [core:error] [pid 4882:tid 87322] [client 192.0.2.123:55876] AH00126: Invalid URI in request GET /%00 HTTP/1.1
+[Sat May 10 10:03:05.000000 2025] [access_compat:error] [pid 4882:tid 91288] [client 198.51.100.5:41212] AH01797: client denied by server configuration: /var/www/html/.htaccess
+[Sat May 10 10:03:36.000000 2025] [rewrite:notice] [pid 4882:tid 95411] [client 203.0.113.200:38220] AH00670: RewriteCond pattern '[^a-zA-Z0-9]' does not match
+[Sat May 10 10:03:57.000000 2025] [proxy_http:warn] [pid 4882:tid 87542] [client 10.0.0.1:60000] AH01144: No protocol handler was valid for the URL /api/data
+[Sat May 10 10:04:11.000000 2025] [mpm_prefork:notice] [pid 4882] AH00169: caught SIGTERM, shutting down
+[Sat May 10 10:04:24.000000 2025] [authn_file:error] [pid 5980:tid 90122] [client 198.51.100.4:50112] AH01617: user admin: authentication failure for "/admin": Password Mismatch
+[Sat May 10 10:04:40.000000 2025] [ssl:warn] [pid 5980:tid 92113] [client 203.0.113.5:34345] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat May 10 10:05:01.000000 2025] [core:error] [pid 5980:tid 93822] [client 192.0.2.45:41003] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error.
+[Sat May 10 10:05:33.000000 2025] [proxy_fcgi:error] [pid 5980:tid 94999] [client 198.51.100.2:59123] AH01071: Got error 'Primary script unknown'
+[Sat May 10 10:06:14.000000 2025] [rewrite:warn] [pid 5980:tid 95423] [client 203.0.113.21:54444] AH00665: Invalid regular expression '^/$'
+[Sat May 10 10:06:45.000000 2025] [mpm_prefork:notice] [pid 5980] AH00163: Apache/2.4.41 (Ubuntu) configured -- resuming normal operations
+[Sat May 10 10:07:09.000000 2025] [core:notice] [pid 5980] AH00094: Command line: '/usr/sbin/apache2'
+[Sat May 10 10:07:42.000000 2025] [authz_core:debug] [pid 5980:tid 99999] [client 10.0.2.15:39282] AH01626: authorization result of Require all granted: granted
+[Sat May 10 10:08:01.000000 2025] [proxy_fcgi:error] [pid 5980:tid 98341] [client 198.51.100.3:45500] AH01067: Failed to read FastCGI header
+[Sat May 10 10:08:37.000000 2025] [deflate:warn] [pid 5980:tid 96329] [client 203.0.113.6:40333] AH01384: Zlib: Compressed data not written to client
+[Sat May 10 10:09:00.000000 2025] [authn_core:error] [pid 5980:tid 94412] [client 192.0.2.88:33210] AH01796: AuthType configured with no corresponding module
+[Sat May 10 10:09:29.000000 2025] [proxy:error] [pid 5980:tid 97612] [client 198.51.100.101:31254] AH00898: Error reading from remote server returned by /api/slow
+[Sat May 10 10:10:15.000000 2025] [rewrite:notice] [pid 5980:tid 94200] [client 203.0.113.40:50234] AH00670: RewriteCond pattern '[0-9]{3}' does match
+[Sat May 10 10:10:39.000000 2025] [core:error] [pid 5980:tid 99992] [client 198.51.100.77:42103] AH00128: File does not exist: /var/www/html/missing.html
+[Sat May 10 10:11:00.000000 2025] [ssl:warn] [pid 5980:tid 98765] [client 203.0.113.100:51000] AH01906: www.example.com:443:0 server certificate is expired
+[Sat May 10 10:11:29.000000 2025] [proxy_ajp:error] [pid 5980:tid 98211] [client 192.0.2.200:60212] AH00878: read response failed from 127.0.0.1:8009 (localhost)
+[Sat May 10 10:12:00.000000 2025] [rewrite:error] [pid 5980:tid 99900] [client 198.51.100.200:39213] AH00664: RewriteCond: bad flag delimiters

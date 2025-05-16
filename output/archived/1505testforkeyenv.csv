@@ -1,0 +1,35 @@
+ip_address,timestamp,method,path,protocol,status_code,response_size,referrer,user_agent,log_type,aita_risk_level,aita_comment
+203.0.113.17,10/May/2025:10:00:12 +0000,GET,/,HTTP/1.1,200,523,-,Mozilla/5.0 (Windows NT 10.0; Win64; x64),access,1,
+198.51.100.23,10/May/2025:10:00:14 +0000,POST,/login,HTTP/1.1,401,305,/login,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),access,1,
+192.0.2.42,10/May/2025:10:01:07 +0000,GET,/dashboard,HTTP/1.1,302,0,/home,curl/7.68.0,access,3,Unauthorized login attempt
+203.0.113.5,10/May/2025:10:01:58 +0000,GET,/style.css,HTTP/1.1,200,876,http://example.com,Mozilla/5.0 (X11; Linux x86_64),access,1,
+198.51.100.99,10/May/2025:10:02:30 +0000,GET,/images/logo.png,HTTP/1.1,200,4321,-,Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X),access,1,
+192.0.2.1,10/May/2025:10:03:03 +0000,GET,/favicon.ico,HTTP/1.1,404,209,-,Mozilla/5.0 (Windows NT 10.0),access,1,
+203.0.113.66,10/May/2025:10:03:34 +0000,POST,/api/data,HTTP/1.1,500,1023,-,python-requests/2.25.1,access,5,Internal server error on POST
+198.51.100.44,10/May/2025:10:04:12 +0000,GET,/robots.txt,HTTP/1.1,200,68,-,Googlebot/2.1 (+http://www.google.com/bot.html),access,1,
+192.0.2.222,10/May/2025:10:04:55 +0000,GET,/admin,HTTP/1.1,403,723,-,Mozilla/5.0 (Linux; Android 11),access,1,
+203.0.113.31,10/May/2025:10:05:44 +0000,HEAD,/,HTTP/1.1,200,0,-,Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm),access,1,
+203.0.113.17,10/May/2025:10:06:10 +0000,GET,/index.html,HTTP/1.1,200,1043,-,Mozilla/5.0 (Windows NT 10.0),access,1,
+192.0.2.33,10/May/2025:10:06:44 +0000,POST,/submit-form,HTTP/1.1,200,382,/form,Mozilla/5.0 (Macintosh; Intel Mac OS X),access,1,
+198.51.100.23,10/May/2025:10:07:29 +0000,GET,/news,HTTP/1.1,200,893,-,Mozilla/5.0 (Windows NT 10.0),access,3,Forbidden access to admin
+203.0.113.22,10/May/2025:10:08:14 +0000,GET,/logout,HTTP/1.1,302,0,/dashboard,Mozilla/5.0 (iPad; CPU OS 13_6 like Mac OS X),access,1,
+192.0.2.77,10/May/2025:10:09:01 +0000,GET,/api/info,HTTP/1.1,200,1234,-,PostmanRuntime/7.28.4,access,1,
+203.0.113.88,10/May/2025:10:10:33 +0000,GET,/blog/page1,HTTP/1.1,200,1520,-,Mozilla/5.0 (X11; Ubuntu; Linux x86_64),access,1,
+198.51.100.88,10/May/2025:10:11:12 +0000,DELETE,/account,HTTP/1.1,401,64,/settings,curl/7.64.1,access,1,
+203.0.113.55,10/May/2025:10:12:19 +0000,GET,/archive.zip,HTTP/1.1,200,89012,-,Wget/1.20.3 (linux-gnu),access,1,
+192.0.2.100,10/May/2025:10:13:56 +0000,GET,/media/video.mp4,HTTP/1.1,206,8192,-,VLC/3.0.11 LibVLC/3.0.11,access,4,Large file upload attempt
+198.51.100.101,10/May/2025:10:14:31 +0000,PUT,/user/42,HTTP/1.1,201,158,-,python-urllib/3.8,access,1,
+203.0.113.90,10/May/2025:10:15:20 +0000,GET,/sitemap.xml,HTTP/1.1,200,472,-,Mozilla/5.0 (compatible; YandexBot/3.0),access,1,
+192.0.2.50,10/May/2025:10:16:45 +0000,GET,/old-page,HTTP/1.1,301,0,-,Mozilla/5.0 (iPhone; CPU iPhone OS 13_5 like Mac OS X),access,1,
+198.51.100.60,10/May/2025:10:17:13 +0000,GET,/api/items?id=5,HTTP/1.1,200,122,-,Insomnia/2021.4.1,access,1,
+203.0.113.3,10/May/2025:10:18:40 +0000,GET,/contact,HTTP/1.1,200,344,-,Mozilla/5.0 (Windows NT 10.0),access,1,
+192.0.2.19,10/May/2025:10:19:17 +0000,POST,/upload,HTTP/1.1,413,1153,-,curl/7.68.0,access,4,Forbidden access to secure
+198.51.100.7,10/May/2025:10:20:05 +0000,GET,/api/stats,HTTP/1.1,200,2321,-,Mozilla/5.0 (X11; Linux),access,1,
+203.0.113.75,10/May/2025:10:21:55 +0000,GET,/secure,HTTP/1.1,403,102,-,Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X),access,3,Potentially suspicious OPTIONS request
+192.0.2.111,10/May/2025:10:22:34 +0000,GET,/login,HTTP/1.1,200,332,-,Mozilla/5.0 (Windows NT 6.1),access,1,
+198.51.100.3,10/May/2025:10:23:23 +0000,GET,/img/banner.jpg,HTTP/1.1,200,2048,-,Mozilla/5.0 (Linux; Android 10),access,1,
+203.0.113.11,10/May/2025:10:24:11 +0000,GET,/docs,HTTP/1.1,200,1632,-,Mozilla/5.0 (Macintosh; Intel Mac OS X),access,1,
+10.0.0.22,27/Jan/2025:17:55:44 +0000,GET,/favicon.ico,HTTP/1.1,200,428,,,access,1,
+192.0.2.22,28/Feb/2025:09:09:09 +0000,OPTIONS,/api,HTTP/1.1,204,0,,,access,1,
+172.16.3.3,29/May/2025:13:13:13 +0000,GET,/logs,HTTP/1.1,200,20480,,,access,1,
+8.8.8.7,30/Jun/2025:10:10:10 +0000,GET,/terms,HTTP/1.1,200,1024,,,access,1,

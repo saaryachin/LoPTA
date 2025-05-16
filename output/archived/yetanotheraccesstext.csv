@@ -1,0 +1,3 @@
+message,log_type,aita_risk_level,aita_comment
+May  6 10:06:34 sshd[3361]: We forgot the username and the IP is hiding too,unknown pattern,1.0,
+,,3.0,Unknown pattern in log entry

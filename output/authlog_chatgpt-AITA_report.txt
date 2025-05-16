@@ -1,0 +1,10 @@
+AI TRIAGE ASSISTANT SUMMARY REPORT:
+-----------------------------------
+Report date: 2025-05-16 10:18:29
+Analyzed log file: .\output\authlog_chatgtp.csv | Model: gpt-4o-mini | Time to process: 4.2080 seconds
+Number of suspected lines (risk level above 1): 6
+Suspected lines: 3, 5, 7, 13, 15, 20
+
+AITA SUMMARY:
+-------------
+Multiple failed password attempts and an invalid user login indicate potential unauthorized access attempts. Monitoring and further investigation are recommended to mitigate risks.

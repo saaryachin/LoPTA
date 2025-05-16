@@ -1,0 +1,10 @@
+AI TRIAGE ASSISTANT SUMMARY REPORT:
+-----------------------------------
+Report date: 2025-05-14 13:09:43
+Analyzed log file: ../output/access_parsed.csv | Model: Chat-GPT 4o mini | Time to process: 3.2410 seconds
+Number of suspected lines (risk level above 1): 6
+Suspected lines: 1, 8, 16, 6, 24, 26
+
+AITA SUMMARY:
+-------------
+Multiple unauthorized access attempts and server errors indicate potential security risks. Immediate investigation is recommended to mitigate threats.

@@ -1,0 +1,10 @@
+AI TRIAGE ASSISTANT SUMMARY REPORT:
+-----------------------------------
+Report date: 2025-05-15 10:12:51
+Analyzed log file: .\output\1505testforkey.csv | Model: gpt-4o-mini | Time to process: 5.5621 seconds
+Number of suspected lines (risk level above 1): 6
+Suspected lines: 12, 17, 24, 29, 39, 42
+
+AITA SUMMARY:
+-------------
+Several high-risk events were detected, including an invalid URI request and expired server certificate. Authentication failures and configuration errors also indicate potential security issues that require immediate attention.

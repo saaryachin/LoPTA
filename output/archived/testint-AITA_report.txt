@@ -1,0 +1,10 @@
+AI TRIAGE ASSISTANT SUMMARY REPORT:
+-----------------------------------
+Report date: 2025-05-15 12:50:49
+Analyzed log file: .\output\testint.csv | Model: mistral | Time to process: 45.1356 seconds
+Number of suspected lines (risk level above 1): 5
+Suspected lines: 6, 13, 20, 27, 34
+
+AITA SUMMARY:
+-------------
+Multiple failed password attempts and potential brute-force attacks detected. Recommend implementing rate limiting for SSH access to mitigate risks.

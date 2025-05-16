@@ -1,0 +1,10 @@
+AI TRIAGE ASSISTANT SUMMARY REPORT:
+-----------------------------------
+Report date: 2025-05-15 10:07:39
+Analyzed log file: .\output\1505tesotllama2.csv | Model: mistral | Time to process: 229.5050 seconds
+Number of suspected lines (risk level above 1): 17
+Suspected lines: 6, 10, 13, 17, 20, 24, 25, 26, 28, 30, 33, 37, 40, 42, 43, 44, 46
+
+AITA SUMMARY:
+-------------
+Multiple failed password attempts and brute-force attacks detected. Possible account enumeration or credential stuffing attempts. Recommend monitoring user accounts for suspicious activity and strengthening authentication mechanisms.

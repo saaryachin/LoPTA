@@ -1,0 +1,10 @@
+AI TRIAGE ASSISTANT SUMMARY REPORT:
+-----------------------------------
+Report date: 2025-05-15 12:54:14
+Analyzed log file: .\output\testintphi3.csv | Model: phi3 | Time to process: 109.8867 seconds
+Number of suspected lines (risk level above 1): 2
+Suspected lines: 3, 5
+
+AITA SUMMARY:
+-------------
+The log indicates a brute-force login attempt on the 'sshd' service and multiple failed password attempts for various users. These activities suggest potential unauthorized access efforts that should be investigated further to prevent possible breaches. The risk level is highest in these cases, indicating immediate attention required.

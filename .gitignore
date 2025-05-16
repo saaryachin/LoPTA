@@ -1,0 +1,19 @@
+# Bytecode & cache
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints (recursively)
+.ipynb_checkpoints/
+
+# Archive (not needed in main repo)
+ARCHIVE/
+
+# Secrets
+AITA/openai_key.txt
+
+# System files
+.DS_Store
+
+# Misc/backup
+*.bak
+*.tmp

@@ -1,0 +1,10 @@
+AI TRIAGE ASSISTANT SUMMARY REPORT:
+-----------------------------------
+Report date: 2025-05-15 16:19:33
+Analyzed log file: .\output\errorphi3.csv | Model: phi3 | Time to process: 128.1100 seconds
+Number of suspected lines (risk level above 1): 2
+Suspected lines: 2, 6
+
+AITA SUMMARY:
+-------------
+The parsed log indicates a brute-force attack and failed login attempts. These activities suggest unauthorized access efforts that pose high risks to the system's security integrity. Immediate investigation is required, along with strengthening authentication mechanisms.

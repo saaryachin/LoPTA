@@ -1,0 +1,10 @@
+AI TRIAGE ASSISTANT SUMMARY REPORT:
+-----------------------------------
+Report date: 2025-05-14 14:31:39
+Analyzed log file: ../output/auth_parsed_local_test2.csv | Model: mistral | Time to process: 203.4213 seconds
+Number of suspected lines (risk level above 1): 9
+Suspected lines: 3, 5, 10, 14, 15, 16, 17, 20, 22
+
+AITA SUMMARY:
+-------------
+Multiple failed password attempts and a brute-force attack were detected. The IP addresses involved are 198.51.100.99, 203.0.113.42, and 203.0.113.100. It is recommended to investigate these activities further for potential security risks.

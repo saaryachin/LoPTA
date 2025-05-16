@@ -1,0 +1,31 @@
+May  6 09:58:01 ip-192-168-0-101 CRON[3212]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 09:58:01 ip-192-168-0-101 CRON[3212]: pam_unix(cron:session): session closed for user root
+May  6 10:02:17 ip-192-168-0-101 sshd[3345]: Failed password for root from 203.0.113.42 port 52222 ssh2
+May  6 10:02:19 ip-192-168-0-101 sshd[3346]: Connection closed by authenticating user root 203.0.113.42 port 52222 [preauth]
+May  6 10:03:55 ip-192-168-0-101 sshd[3350]: Invalid user admin from 198.51.100.99 port 51111
+May  6 10:03:56 ip-192-168-0-101 sshd[3350]: input_userauth_request: invalid user admin [preauth]
+May  6 10:05:11 ip-192-168-0-101 sshd[3360]: Failed password for invalid user test from 198.51.100.99 port 51112 ssh2
+May  6 10:06:33 ip-192-168-0-101 sshd[3361]: Accepted password for kali from 10.0.2.15 port 55321 ssh2
+May  6 10:06:33 ip-192-168-0-101 sshd[3361]: pam_unix(sshd:session): session opened for user kali by (uid=0)
+May  6 10:06:34 ip-192-168-0-101 sudo:     kali : TTY=pts/1 ; PWD=/home/kali ; USER=root ; COMMAND=/bin/ls
+May  6 10:06:34 ip-192-168-0-101 sudo: pam_unix(sudo:session): session opened for user root by kali(uid=0)
+May  6 10:06:35 ip-192-168-0-101 sudo: pam_unix(sudo:session): session closed for user root
+May  6 10:08:42 ip-192-168-0-101 sshd[3361]: pam_unix(sshd:session): session closed for user kali
+May  6 10:09:13 ip-192-168-0-101 sshd[3370]: Accepted publickey for ubuntu from 85.245.107.41 port 54259 ssh2: RSA SHA256:Kl8kPGZrTiz7g4FO1hyqHdsSBBb5Fge6NWOobN03XJg
+May  6 10:09:13 ip-192-168-0-101 sshd[3370]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  6 10:11:03 ip-192-168-0-101 sudo:     ubuntu : TTY=pts/2 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+May  6 10:11:03 ip-192-168-0-101 sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  6 10:11:05 ip-192-168-0-101 sudo: pam_unix(sudo:session): session closed for user root
+May  6 10:12:08 ip-192-168-0-101 sshd[3370]: pam_unix(sshd:session): session closed for user ubuntu
+May  6 10:13:01 ip-192-168-0-101 sshd[3380]: Failed password for invalid user dev from 192.0.2.123 port 48888 ssh2
+May  6 10:13:02 ip-192-168-0-101 sshd[3380]: Connection closed by authenticating user dev 192.0.2.123 port 48888 [preauth]
+May  6 10:15:44 ip-192-168-0-101 sshd[3385]: Failed password for root from 192.168.0.202 port 40001 ssh2
+May  6 10:17:20 ip-192-168-0-101 sshd[3390]: Accepted password for admin from 10.0.2.22 port 44555 ssh2
+May  6 10:17:21 ip-192-168-0-101 sshd[3390]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+May  6 10:17:22 ip-192-168-0-101 sudo:     admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/netstat -tuln
+May  6 10:17:23 ip-192-168-0-101 sudo: pam_unix(sudo:session): session opened for user root by admin(uid=0)
+May  6 10:17:24 ip-192-168-0-101 sudo: pam_unix(sudo:session): session closed for user root
+May  6 10:19:10 ip-192-168-0-101 sshd[3390]: pam_unix(sshd:session): session closed for user admin
+May  6 10:20:17 ip-192-168-0-101 sshd[3395]: Failed password for ubuntu from 203.0.113.100 port 47890 ssh2
+May  6 10:20:19 ip-192-168-0-101 sshd[3395]: Received disconnect from 203.0.113.100 port 47890:11: Bye Bye [preauth]
+May  6 10:20:19 ip-192-168-0-101 sshd[3395]: Disconnected from authenticating user ubuntu 203.0.113.100 port 47890

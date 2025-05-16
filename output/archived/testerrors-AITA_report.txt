@@ -1,0 +1,10 @@
+AI TRIAGE ASSISTANT SUMMARY REPORT:
+-----------------------------------
+Report date: 2025-05-15 11:58:27
+Analyzed log file: ..\output\testerrors.csv | Model: gpt-4o-mini | Time to process: 3.0957 seconds
+Number of suspected lines (risk level above 1): 2
+Suspected lines: 9, 11
+
+AITA SUMMARY:
+-------------
+The log analysis revealed two significant risks: a failed password attempt from an admin user and an invalid user login attempt. These incidents may indicate potential unauthorized access attempts and warrant further investigation.

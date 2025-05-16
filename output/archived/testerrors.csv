@@ -1,0 +1,14 @@
+timestamp,host,service,raw_status,user,ip_address,log_type,calling_user,target_user,command,err_message,aita_risk_level,aita_comment
+May 15 08:12:01,192-168-0-101,sshd[1234],Accepted password,ubuntu,203.0.113.5,ssh_login,,,,,1,
+May 15 08:12:02,192-168-0-101,sshd[1234],session opened,ubuntu,,pam_session,,,,,1,
+May 15 08:12:03,192-168-0-101,sudo,,,,sudo,ubuntu,root,/usr/bin/apt update,,1,
+May 15 08:12:04,192-168-0-101,sudo,session opened,root,,pam_session,,,,,1,
+May 15 08:12:07,192-168-0-101,sshd[1234],Received disconnect,,203.0.113.5,received_disconnect,,,,,1,
+May 15 08:12:08,192-168-0-101,sshd[1234],Disconnected,ubuntu,203.0.113.5,disconnected,,,,,1,
+,,,,,,unknown pattern,,,,# this is a malformed line with no timestamp,1,
+,,,,,,unknown pattern,,,,MALFORMED: unexpected format completely random text,1,
+May 15 08:13:01,192-168-0-101,sshd[5678],Failed password,admin,198.51.100.77,invalid_user_failed_pw,,,,,1,
+,,,,,,unknown pattern,,,,Some garbage without any structure,3,Failed password attempt
+May 15 08:14:01,192-168-0-101,sshd[5678],invalid user,test,,invalid_user_userauth,,,,,1,
+May 15 08:14:02,192-168-0-101,sshd[5678],Connection closed,test,198.51.100.77,connection_closed,,,,,4,Invalid user login attempt
+May 15 08:14:05,192-168-0-101,sudo,session closed,root,,pam_session,,,,,1,

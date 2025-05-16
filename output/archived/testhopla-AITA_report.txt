@@ -1,0 +1,10 @@
+AI TRIAGE ASSISTANT SUMMARY REPORT:
+-----------------------------------
+Report date: 2025-05-14 23:03:17
+Analyzed log file: ./output/testhopla.csv | Model: gpt-4o-mini | Time to process: 3.5327 seconds
+Number of suspected lines (risk level above 1): 6
+Suspected lines: 3, 5, 7, 13, 15, 20
+
+AITA SUMMARY:
+-------------
+Multiple failed password attempts indicate potential brute-force attacks, particularly from external IPs. Invalid user logins also raise concerns about unauthorized access attempts. Monitoring and further investigation are recommended.

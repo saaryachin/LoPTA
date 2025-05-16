@@ -1,0 +1,10 @@
+AI TRIAGE ASSISTANT SUMMARY REPORT:
+-----------------------------------
+Report date: 2025-05-16 10:23:53
+Analyzed log file: .\output\accesslog_mistral.csv | Model: mistral | Time to process: 254.4601 seconds
+Number of suspected lines (risk level above 1): 5
+Suspected lines: 6, 12, 18, 20, 26
+
+AITA SUMMARY:
+-------------
+Multiple suspicious activities detected: potential SQL injection (request #12), unauthorized access to sensitive resources (request #18 and #20), failed login attempts (request #6), and potential account deletion (request #26). Recommend further investigation.

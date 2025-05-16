@@ -1,0 +1,33 @@
+timestamp,host,service,raw_status,user,log_type,ip_address,calling_user,target_user,command,aita_risk_level,aita_comment
+May  6 09:58:01,192-168-0-101,CRON[3212],session opened,root,pam_session,,,,,1.0,
+May  6 09:58:01,192-168-0-101,CRON[3212],session closed,root,pam_session,,,,,1.0,
+May  6 10:02:17,192-168-0-101,sshd[3345],Failed password,root,ssh_login,203.0.113.42,,,,1.0,
+May  6 10:02:19,192-168-0-101,sshd[3346],Connection closed,root,connection_closed,203.0.113.42,,,,1.0,
+May  6 10:03:55,192-168-0-101,sshd[3350],Invalid user,admin,invalid_user_proper,198.51.100.99,,,,1.0,
+May  6 10:03:56,192-168-0-101,sshd[3350],invalid user,admin,invalid_user_userauth,,,,,1.0,
+May  6 10:05:11,192-168-0-101,sshd[3360],Failed password,test,invalid_user_failed_pw,198.51.100.99,,,,3.0,Failed password attempt
+May  6 10:06:33,192-168-0-101,sshd[3361],Accepted password,kali,ssh_login,10.0.2.15,,,,1.0,
+May  6 10:06:33,192-168-0-101,sshd[3361],session opened,kali,pam_session,,,,,1.0,
+May  6 10:06:34,192-168-0-101,sudo,,,sudo,,kali,root,/bin/ls,1.0,
+May  6 10:06:34,192-168-0-101,sudo,session opened,root,pam_session,,,,,1.0,
+May  6 10:06:35,192-168-0-101,sudo,session closed,root,pam_session,,,,,1.0,
+May  6 10:08:42,192-168-0-101,sshd[3361],session closed,kali,pam_session,,,,,1.0,
+May  6 10:09:13,192-168-0-101,sshd[3370],Accepted publickey,ubuntu,ssh_login,85.245.107.41,,,,4.0,Potential brute-force attack on root account
+May  6 10:09:13,192-168-0-101,sshd[3370],session opened,ubuntu,pam_session,,,,,1.0,
+May  6 10:11:03,192-168-0-101,sudo,,,sudo,,ubuntu,root,/usr/bin/apt update,1.0,
+May  6 10:11:03,192-168-0-101,sudo,session opened,root,pam_session,,,,,1.0,
+May  6 10:11:05,192-168-0-101,sudo,session closed,root,pam_session,,,,,1.0,
+May  6 10:12:08,192-168-0-101,sshd[3370],session closed,ubuntu,pam_session,,,,,1.0,
+May  6 10:13:01,192-168-0-101,sshd[3380],Failed password,dev,invalid_user_failed_pw,192.0.2.123,,,,1.0,
+May  6 10:13:02,192-168-0-101,sshd[3380],Connection closed,dev,connection_closed,192.0.2.123,,,,1.0,
+May  6 10:15:44,192-168-0-101,sshd[3385],Failed password,root,ssh_login,192.168.0.202,,,,1.0,
+May  6 10:17:20,192-168-0-101,sshd[3390],Accepted password,admin,ssh_login,10.0.2.22,,,,1.0,
+May  6 10:17:21,192-168-0-101,sshd[3390],session opened,admin,pam_session,,,,,1.0,
+May  6 10:17:22,192-168-0-101,sudo,,,sudo,,admin,root,/usr/bin/netstat -tuln,1.0,
+May  6 10:17:23,192-168-0-101,sudo,session opened,root,pam_session,,,,,3.0,Failed password attempt
+May  6 10:17:24,192-168-0-101,sudo,session closed,root,pam_session,,,,,1.0,
+May  6 10:19:10,192-168-0-101,sshd[3390],session closed,admin,pam_session,,,,,1.0,
+May  6 10:20:17,192-168-0-101,sshd[3395],Failed password,ubuntu,ssh_login,203.0.113.100,,,,1.0,
+May  6 10:20:19,192-168-0-101,sshd[3395],Received disconnect,,received_disconnect,203.0.113.100,,,,1.0,
+May  6 10:20:19,192-168-0-101,sshd[3395],Disconnected,ubuntu,disconnected,203.0.113.100,,,,4.0,Potential brute-force attack on admin account
+,,,,,,,,,,3.0,Failed password attempt

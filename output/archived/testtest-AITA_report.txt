@@ -1,0 +1,10 @@
+AI TRIAGE ASSISTANT SUMMARY REPORT:
+-----------------------------------
+Report date: 2025-05-15 10:53:04
+Analyzed log file: .\lopta\output\testtest.csv | Model: gpt-4o-mini | Time to process: 5.5727 seconds
+Number of suspected lines (risk level above 1): 6
+Suspected lines: 12, 17, 24, 30, 32, 36
+
+AITA SUMMARY:
+-------------
+Multiple errors indicate potential misconfigurations and unauthorized access attempts, including authentication failures and invalid requests. The presence of high-risk entries suggests a need for immediate investigation and remediation.
