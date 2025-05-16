@@ -38,6 +38,7 @@ python lopta.py --help
 
 I also included the .ipynb Jupyter notebooks for reference, but omitted them from the following tree.
 
+<pre> ```
 LoPTA/
 ├── lopta.py                        # The main command line script. 
 ├── parser/                           # The parser module
@@ -65,11 +66,11 @@ LoPTA/
 │   ├── accesslog_mistral.csv                         # example of AITA with Mistral through Ollama.
 │   └── accesslog_mistral-AITA-report.csv    # AITA report for above file.
 │
-├── requirements.txt                 # Python dependencies
-├── README.md                        # You are here :)
-├── Study Journal.md                # My study notes, for myself and for you should you like.
+├── requirements.txt                     # Python dependencies
+├── README.md                            # You are here :)
+├── Learning Journal - LoPTA Project.md  # My study notes, for myself and for you should you like.
 └── LICENSE
-
+```
 
 ## Discussion of the AITA model
 
@@ -87,12 +88,12 @@ AITA SUMMARY:
 -------------
 Multiple failed password attempts and an invalid user login indicate potential unauthorized access attempts. Monitoring and further investigation are recommended to mitigate risks.
 ```
-### AITA -chat (OpenAI API)
+### AITA-chat (OpenAI API)
 
 #### Requirements: 
 
 AITA works most efficiently through the OpenAI API. The default model is ChatGPT-4o-mini, which is very cost effective and did a very decent job in my trials. Having run around 2,000 log lines, it set me back only a few cents, with perfect results. However, naturally it is not best practice to process your security logs in the cloud. Therefore AITA also has a local mode.
-#### AITA -local (Ollama)
+#### AITA-local (Ollama)
 
 The local mode is based on Ollama. I have tried 3 LLMs that can work reasonably well on my modest machine: Phi-3, which was relatively fast and pretty decent; Mistral, which gave better results but took longer, and Tinyllama, which was fast with garbled hallucinations rendering it useless. Much of the work has gone into cleaning up the responses received from the models running on Ollama. I can only hope that the functions for clearing up the responses will cover most of their misses.
 
@@ -104,6 +105,10 @@ The ideal setup would be a stronger model with RAG, running on a more capable ma
 - Ideally, AITA would be run locally, with a more capable model and RAG. Perhaps LoPTA 2.0 could enable tethering to a dedicated workstation for running an LLM.
 - The parser model would be expanded to recognize and parse more log types and patterns.
 - Error handling would be improved (unknown models, malformed logs, etc.).
+
+## Additional materials
+
+If you are interested, you can have a look at my [Learning Journal](Learning%20Journal%20-%20LoPTA%20Project.md).
 
 ## License
 
