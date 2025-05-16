@@ -38,7 +38,7 @@ python lopta.py --help
 
 I also included the .ipynb Jupyter notebooks for reference, but omitted them from the following tree.
 
-<pre> ```
+```bash
 LoPTA/
 ├── lopta.py                        # The main command line script. 
 ├── parser/                           # The parser module
