@@ -35,4 +35,4 @@ To create a log parser for multiple log types - auth.log, apache2/access.log, ap
 
 ## Summary
 
-This modest project is my most ambitious Python project to date. Implementing it took a lot of learning, including learning about what I had to learn. I have learned much about developing a multimodal project, debugging and project architecture design, and believe I acquired some valuable cybersecurity and AI skills. By conducting an awful lot of LLM runs, I gained insight into how to use them more effectively — improving efficiency, speed, and accuracy, and handling the challenges they pose.
+This modest project is my most ambitious Python project to date. Implementing it took a lot of learning, including learning about what I had to learn. I have learned much about developing a multimodal project, debugging and project architecture design, and believe I acquired some valuable cybersecurity and AI skills. By conducting an awful lot of LLM runs, I gained insight into how to use them more effectively - improving efficiency, speed, and accuracy, and handling the challenges they pose.
